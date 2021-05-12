@@ -17,9 +17,12 @@ nav{
 }
 .nav-links li a{
     text-decoration: none;
-    margin-right: 40px;
+    margin-right: 60px;
     font-size: 17px;
     color: white;
+}
+.nav-links li a:hover{
+    color: #2978b5;
 }
 
 /* mobile */

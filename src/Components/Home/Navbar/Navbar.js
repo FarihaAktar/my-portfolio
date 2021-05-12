@@ -13,7 +13,7 @@ const Navbar = () => {
   
     return (
         <nav className='nav'>
-            <h1 className='logo'>logo</h1>
+            <h1 className='logo'></h1>
             <div  className='hamburger'  onClick={Toggle}>
                 <div className="line"></div>
                 <div className="line"></div>
