@@ -136,3 +136,11 @@
         color: black;
     }
 }
+@media screen and (min-width: 1900px){
+    .project-one, .project-two, .project-three{
+        width: 75%;
+    }
+    .projects-line{
+        width: 25%;
+    }
+}
