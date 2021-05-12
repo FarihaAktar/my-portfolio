@@ -1,9 +1,5 @@
 import React from 'react';
 import './Header.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
-import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
-
 
 const Header = () => {
     return (
@@ -23,10 +19,6 @@ const Header = () => {
                     </div>
 
                 </div>
-
-                {/* <a href=""><FontAwesomeIcon icon={faGithub} /></a>
-                <a href=""><FontAwesomeIcon icon={faLinkedinIn} /></a> */}
-
 
             </div>
 

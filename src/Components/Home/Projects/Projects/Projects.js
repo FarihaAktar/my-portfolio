@@ -34,6 +34,7 @@ const Projects = () => {
                         <div>
                             <h3>Website: <a className='website-link' href="https://splash-44b4f.web.app/">Live link</a></h3>
                             <h3>Source Code: <a className='website-link' href="https://github.com/Farihaakter/splash-photography-studio"><FontAwesomeIcon icon={faGithub} /> Github</a></h3>
+                            <h3>Server-Side-Code: <a className='website-link' href="https://github.com/Farihaakter/splash-photography-studio-server-site"><FontAwesomeIcon icon={faGithub} /> Github</a></h3>
                         </div>
                     </div>
                 </Slide>
@@ -49,6 +50,7 @@ const Projects = () => {
                         <div>
                             <h3>Website: <a className='website-link' href="https://shopaholic-ae91f.web.app/">Live link</a></h3>
                             <h3>Source Code: <a className='website-link' href="https://github.com/Farihaakter/shopaholic-shopping-site"><FontAwesomeIcon icon={faGithub} /> Github</a></h3>
+                            <h3>Server-Side-Code: <a className='website-link' href="https://github.com/Farihaakter/shopaholic-shopping-server-site"><FontAwesomeIcon icon={faGithub} /> Github</a></h3>
                         </div>
                     </div>
                 </Slide>

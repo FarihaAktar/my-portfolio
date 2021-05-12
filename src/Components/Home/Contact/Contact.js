@@ -34,7 +34,7 @@ const Contact = () => {
                         <h3 className='contact-header'>Contact Info </h3>
                         <p className='contact-header'>farihaaktar258@gmail.com</p>
                         <div>
-                            <a href="https://www.linkedin.com/feed/"> <FontAwesomeIcon className='contact-icon' icon={faLinkedin} /></a>
+                            <a href="https://www.linkedin.com/feed"> <FontAwesomeIcon className='contact-icon' icon={faLinkedin} /></a>
                             <a href="https://github.com/Farihaakter"><FontAwesomeIcon className='contact-icon' icon={faGithubSquare} /></a>
                         </div>
                     </div>
