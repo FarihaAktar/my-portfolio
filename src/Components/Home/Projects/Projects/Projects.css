@@ -1,0 +1,138 @@
+.projects-section{
+    width: 80%;
+    margin: 150px auto;
+    /* border: 1px solid red; */
+}
+.projects-line{
+    border: 1px solid #ff6701;
+    width: 34%;
+    margin: 15px auto;
+    
+}
+.project-one, .project-two, .project-three{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 90%;
+    height: 440px;
+    margin: 70px auto;
+}
+
+.project-one-img-section{
+    position: relative;
+    overflow: hidden;
+    width: 330px;
+    height: 400px;
+    box-shadow: 0 25px 30px rgba(0, 0, 0, 0.39);
+}
+.project-one-img-section img{
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+    transition: all .90s ease-in;
+}
+
+.project-one-img-section:hover .project-img{
+    animation-name: fadeInUp;
+    animation-duration: 1.8s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@keyframes fadeInUp {
+    from {transform: scale(1, 1) ;}
+    to {transform: scale(1.2, 1.2)}
+}
+
+.project-one-detail{
+    width: 60%;
+    line-height: 25px;
+    margin-top: 110px;
+    padding: 30px 30px;
+    margin-left: 20px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.39);
+}
+.splash-header, .shopaholic-header, .rescue-header{
+    margin-bottom: 20px;
+    font-family: 'Shippori Mincho', serif;
+}
+
+/* project two */
+.project-two{
+    margin-top: 90px;
+}
+.project-two-detail{
+    width: 60%;
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-top: 90px;
+    padding: 30px 30px;
+    line-height: 25px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.39);
+    background-color: #763857;
+    color: rgb(235, 235, 235);
+
+}
+/* project three */
+.project-three{
+    margin-top: 90px;
+    width: 100%;
+}
+
+/* website link */
+.website-link{
+    color: #00af91;
+    transition: all .4s ;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.website-link:hover{
+    color: black;
+    letter-spacing: 2px;
+}
+
+
+/* media query */
+@media screen and (max-width: 630px){
+    .projects-section{
+        width: 100%;
+        margin: 100px auto;
+    }
+    .projects-line{
+        width: 74%;
+    }
+    .project-one, .project-three{
+        flex-direction: column;
+        width: 100%;
+        margin-top: 60px;
+        height: 700px;
+    }
+    .project-one-img-section{
+        width: 300px;
+        height: 410px;
+        margin-left: 20px;
+
+    }
+    .project-one-img-section img{
+        width: 300px;
+        height: 410px;
+    }
+    .project-one-detail{
+        margin-top: 15px;
+        width: 100%;
+        margin-left: 0;
+    }
+    /* project-two */
+    .project-two{
+        flex-direction: column-reverse;
+        width: 100%;
+        margin-top: 5px;
+        height: 700px;
+    }
+    .project-two-detail{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 5px;
+        background-color: white;
+        color: black;
+    }
+}

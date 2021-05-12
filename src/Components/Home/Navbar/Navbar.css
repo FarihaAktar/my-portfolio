@@ -1,0 +1,71 @@
+nav{
+    height: 11vh;
+    background: #323232;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    margin: 5px 30px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    height: 100%;
+}
+.nav-links li a{
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 17px;
+    color: white;
+}
+
+/* mobile */
+@media screen and (max-width: 630px){
+    .line{
+        width: 30px;
+        height: 3px;
+        background: white;
+        margin: 5px;
+    }
+    nav{
+        position: relative;
+    }
+    .logo{
+        z-index: 2;
+    }
+    .hamburger{
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 15%;
+        z-index: 3;
+    }
+    .nav-links{
+        position: fixed;
+        background:#1b1a17;
+        height: 60vh;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-around;
+        clip-path: circle(100px at 90% -100px);
+        -webkit-clip-path: circle(100px at 90% -100px);
+        transition: all 1s ease-out;
+        pointer-events: none;
+        z-index: 2;
+    }
+    .nav-links.open{
+        clip-path: circle(700px at 90% -100px);
+        -webkit-clip-path: circle(700px at 90% -100px);
+        pointer-events: all;
+    }
+    .nav-links li a{
+        margin-right: 0;
+        transition: all .4s;
+    }
+    .nav-links li a:hover{
+        letter-spacing: 3px;
+    }
+}

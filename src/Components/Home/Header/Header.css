@@ -1,0 +1,128 @@
+.header-content{
+    /* background-color: #1b1b1b; */
+    background-color: #111;
+    display: flex;
+    padding: 55px 30px;
+}
+
+.avatar{
+    position: relative;
+    margin: 0px auto;
+    min-width: 400px;
+    min-height: 400px;
+}
+.avatar-img{
+    background-image: url("../../../image/cover2.jpg");
+}
+.avatar-img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation: morph 8s ease-in-out infinite 1s;
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 9px rgb(255 255 255 / 20%);
+}
+
+@keyframes morph{
+    0%     {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+    50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+    100% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+}
+
+
+.detail{
+    width: 80%;
+    margin-top: 20vh;
+    /* margin: 0 auto; */
+    color: #fff;
+}
+.header-name{
+    font-size: 65px;
+    font-weight: 200;
+    font-family: 'Shippori Mincho', serif;
+}
+.header-text{
+    margin-top: 10px;
+    font-family: 'Shippori Mincho', serif;
+}
+.resume-btn{
+    text-decoration: none;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 15px 25px;
+    transition: all .4s;
+}
+.resume-btn:hover{
+    color: black;
+    background-image: linear-gradient(to right, #008891, #e36bae);
+
+    
+}
+/* 
+.header-detail{
+    position: absolute;
+    border: 2px solid blue;
+    margin: 120px 60px;
+     margin: 80px 45%;
+    padding: 30px;
+    line-height: 30px;
+    width:55%;
+    height: 50vh;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+    color: white;
+    
+} */
+/* .header-text{
+    font-size: 40px;
+    line-height: 50px;
+} */
+/* .resume-btn{
+    text-decoration: none;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+    font-size: 17px;
+    border: 2px solid #fff;
+} */
+
+/* media */
+@media screen and (max-width: 630px){
+    .header-content{
+        flex-direction: column;
+    }
+    .avatar{
+        min-width: 300px;
+        min-height: 300px;
+    }
+    .detail{
+        width: 100%;
+        text-align: center;
+        margin-top: 0px;
+        margin-top: 10px;
+    }
+    .header-name{
+        font-size: 45px;
+    }
+}
+
+@media screen and (min-width: 1900px){
+    .avatar{
+        margin-left: 530px;
+        margin-right: 100px;
+    }
+    .detail{
+        width: 100%;
+        
+    }
+}
