@@ -15,7 +15,7 @@ const Header = () => {
                         <p style={{ color: '#cdd0cb', fontFamily: "'Shippori Mincho', serif" }}>I am an enthusiastic self-driven individual who loves programming and wants to establish a career in this field. </p>
                     </div>
                     <div style={{ marginTop: 50 }}>
-                        <a className='resume-btn' href="https://drive.google.com/uc?export=download&id=1dGv0vCzSjL5yCdD_iEopDjtRYd504l_k">Download Resume</a>
+                        <a className='resume-btn' href="https://drive.google.com/uc?export=download&id=1Jff94__-mGbOpNVQGBvvFX5RkEKBvQuF">Download Resume</a>
                     </div>
 
                 </div>
